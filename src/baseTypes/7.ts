@@ -14,10 +14,7 @@ enum Days {
 }
 
 function isWeekend(day: string): boolean {
-  if (day === "saturday" || "sunnday") {
-    return true;
-  }
-  return false;
+  return day === "saturday" || day === "sunnday";
 }
 
 isWeekend(Days.saturday);
